@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/drawable/drawable_card_view.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/drawable/drawable_text_input_layout.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/drawable/ic_add.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/drawable/ic_book.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/drawable/ic_settings.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/drawable/main_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/drawable/style_edit_text.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/drawable/style_list_view.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/custom_cardView.xml" value="0.67" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/custom_card_view_one_element.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/custom_grid_layout_two_elements.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/fragment_add.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/fragment_notes.xml" value="0.33" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/fragment_search.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/fragment_settings.xml" value="0.3338983050847458" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/list_groups_row.xml" value="0.5" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="..\:/Users/mikhail.dedyukhin/AndroidStudioProjects/SystemNotes/app/src/main/res/menu/botton_navigation_menu.xml" value="0.9339805825242719" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

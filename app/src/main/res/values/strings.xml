@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SystemNotes</string>
+
+    <!-- Strings for botton navigation menu -->
+    <string name="bookString">Группы</string>
+    <string name="addString">Добавить</string>
+    <string name="searchString">Сервис</string>
+    <string name="settingsString">Настройки</string>
+    <string name="ipAddressString">IP АДРЕС</string>
+    <string name="portString">ПОРТ</string>
+    <string name="loginString">ЛОГИН</string>
+    <string name="passwordString">ПАРОЛЬ</string>
+    <string name="logInAndSycnString">СИНХРОНИЗИРОВАТЬ БАЗУ</string>
+
+
+
+    <string name="hello_blank_fragment">notesFragment</string>
+
+
+</resources>
