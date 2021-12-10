@@ -11,7 +11,12 @@
     <string name="loginString">ЛОГИН</string>
     <string name="passwordString">ПАРОЛЬ</string>
     <string name="logInAndSycnString">СИНХРОНИЗИРОВАТЬ БАЗУ</string>
-
+    <string name="openGroup">ОТКРЫТЬ</string>
+    <string name="title">ТЕМА:</string>
+    <string name="ipNetwork">IP ADDRESS:</string>
+    <string name="subnetMask">SUBNET MASK:</string>
+    <string name="gateway">GATEWAY:</string>
+    <string name="dns">DNS:</string>
 
 
     <string name="hello_blank_fragment">notesFragment</string>

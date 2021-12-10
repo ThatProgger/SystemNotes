@@ -4,28 +4,37 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 
+import com.example.systemnotes.Classes.DatabaseHelper;
+import com.example.systemnotes.Classes.RequestToDB;
 import com.example.systemnotes.Fragments.Level1.Add;
 import com.example.systemnotes.Fragments.Level1.Notes;
 import com.example.systemnotes.Fragments.Level1.Search;
 import com.example.systemnotes.Fragments.Level1.Settings;
+import com.example.systemnotes.Fragments.Level2.*;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
 public class MainActivity extends AppCompatActivity {
 
     private final String TAG_MainActivity = "MainActivityTAG";
+    private DatabaseHelper databaseHelper;
+    private SQLiteDatabase sqLiteDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        RequestToDB requestToDB = RequestToDB.getInstance();
+        requestToDB.init(getApplicationContext());
 
-        if (savedInstanceState == null){
+
+         if (savedInstanceState == null){
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.fragmentContainerIndetifier, new Notes())
@@ -39,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 
     /*
         Listener's classes

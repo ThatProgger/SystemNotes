@@ -13,5 +13,6 @@
     <color name="NonActive">#CCFFFFFF</color>
     <color name="Active">#FFFFFF</color>
     <color name="ContainerColor">#3F51B5</color>
+    <color name="ipContainerColor">#336C88F3</color>
     <color name="Red">#FF0000</color>
 </resources>
