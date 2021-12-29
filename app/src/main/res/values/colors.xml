@@ -15,4 +15,11 @@
     <color name="ContainerColor">#3F51B5</color>
     <color name="ipContainerColor">#336C88F3</color>
     <color name="Red">#FF0000</color>
+    <color name="Green">#4CAF50</color>
+
+    <!-- Градиент -->
+    <color name="startGreenGradient">#00CC00</color>
+    <color name="endGreenGradient">#008500</color>
+    <color name="startRedGradient">#FF0000</color>
+    <color name="endRedGradient">#A60000</color>
 </resources>

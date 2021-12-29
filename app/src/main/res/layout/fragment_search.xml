@@ -3,8 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/main_background"
-    tools:context=".Fragments.Level1.Search">
+    android:padding="10dp"
+    tools:context=".Fragments.Level1.Services">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.example.systemnotes.CustomViews.PowerSignalWifi.PowerSignalWiFi
+            android:id="@+id/powerWiFiSignal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_below="@id/powerWiFiSignal"
+            android:layout_above="@id/buttonTest"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <Button
+            android:id="@+id/buttonTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEST"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"/>
+
+
+
+    </RelativeLayout>
+
+
+
 
 
 

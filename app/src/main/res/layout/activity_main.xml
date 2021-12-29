@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:theme="@style/customStyleBottonNavigationMenu"
+        android:theme="@style/Theme.MaterialComponents.Light.rev2"
         app:menu="@menu/botton_navigation_menu"
         app:labelVisibilityMode="labeled"
         />
