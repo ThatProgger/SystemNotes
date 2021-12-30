@@ -98,11 +98,6 @@ public class Services extends Fragment {
         workThread = new Thread(runnable);
 
         workThread.start();
-
-        Button button = view.findViewById(R.id.buttonTest);
-        button.setOnClickListener(v -> {
-            atomicBoolean.set(false);
-        });
     }
 
 
